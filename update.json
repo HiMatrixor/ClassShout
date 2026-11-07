@@ -1,0 +1,16 @@
+{
+  "version": "1.4.0",
+  "date": "2026-11-07",
+  "notes": [
+    "新增自动更新：设置里可开关自动检查、查看更新日志、一键下载新版；教室电脑可代手机联网检查",
+    "发送端设置新增「支持开发者 / 捐赠」，内置微信与支付宝两张收款码，点开可放大、长按扫码",
+    "发送端设置底部新增「开发者介绍」，含 Matrixor 简介、阅卷AI 与用户交流 QQ 群 1105769761",
+    "接收端控制面板新增「软件更新」卡片，支持检查更新与下载新版"
+  ],
+  "downloads": {
+    "receiverWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.4.0/ClassShout-Receiver-Windows.zip",
+    "senderWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.4.0/ClassShout-Sender-Windows.zip",
+    "senderAndroid": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.4.0/ClassShout-Sender-Android-v1.4.0.apk"
+  },
+  "releasePage": "https://github.com/HiMatrixor/ClassShout/releases/latest"
+}
