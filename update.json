@@ -1,16 +1,18 @@
 {
-  "version": "1.4.0",
-  "date": "2026-11-07",
+  "version": "1.5.0",
+  "date": "2026-11-10",
   "notes": [
-    "新增自动更新：设置里可开关自动检查、查看更新日志、一键下载新版；教室电脑可代手机联网检查",
-    "发送端设置新增「支持开发者 / 捐赠」，内置微信与支付宝两张收款码，点开可放大、长按扫码",
-    "发送端设置底部新增「开发者介绍」，含 Matrixor 简介、阅卷AI 与用户交流 QQ 群 1105769761",
-    "接收端控制面板新增「软件更新」卡片，支持检查更新与下载新版"
+    "接收端控制面板新增「扫码连接」二维码：手机相机或微信扫一下就打开发送端网页，不用装 App、不用手抄 IP",
+    "网卡列表标清「有线 / WiFi / 直连热点 / 组网」，可一键复制地址，也可切换成任意网卡地址的二维码",
+    "新增「连接助手」，专治学校 WiFi 的 AP 隔离：一键开启电脑热点让手机直连、自动识别手机热点与 USB 共享链路，还可选 EasyTier 跨网络组网绕开校园网限制",
+    "排查指引改为「先判断是不是 AP 隔离」：说明 AP 隔离下扫码、手输 IP、调防火墙都无效，并给出三条一定能通的链路",
+    "发送端手动连接更宽容：只填 IP 也能连（自动补 3000 端口），失败提示直接给出 AP 隔离的解决办法",
+    "自动搜索更快：并发提高、超时缩短，整段网络约 3 秒扫完"
   ],
   "downloads": {
-    "receiverWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.4.0/ClassShout-Receiver-Windows.zip",
-    "senderWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.4.0/ClassShout-Sender-Windows.zip",
-    "senderAndroid": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.4.0/ClassShout-Sender-Android-v1.4.0.apk"
+    "receiverWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.0/ClassShout-Receiver-Windows.zip",
+    "senderWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.0/ClassShout-Sender-Windows.zip",
+    "senderAndroid": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.0/ClassShout-Sender-Android-v1.5.0.apk"
   },
   "releasePage": "https://github.com/HiMatrixor/ClassShout/releases/latest"
 }
