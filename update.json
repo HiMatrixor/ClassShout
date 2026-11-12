@@ -1,7 +1,10 @@
 {
-  "version": "1.5.0",
-  "date": "2026-11-10",
+  "version": "1.5.1",
+  "date": "2026-11-12",
   "notes": [
+    "连接助手「跨网络组网」现在可以一键下载 EasyTier：程序自动下载、解压并放到程序文件夹，不用再自己解压拖文件",
+    "下载失败会自动换镜像（github.com → ghproxy.net → gh-proxy.com），并显示下载速度与预计剩余时间",
+    "虚拟网卡驱动一并装好（wintun.dll / WinDivert64.sys），避免只拷主程序导致建虚拟网卡失败",
     "接收端控制面板新增「扫码连接」二维码：手机相机或微信扫一下就打开发送端网页，不用装 App、不用手抄 IP",
     "网卡列表标清「有线 / WiFi / 直连热点 / 组网」，可一键复制地址，也可切换成任意网卡地址的二维码",
     "新增「连接助手」，专治学校 WiFi 的 AP 隔离：一键开启电脑热点让手机直连、自动识别手机热点与 USB 共享链路，还可选 EasyTier 跨网络组网绕开校园网限制",
@@ -10,9 +13,9 @@
     "自动搜索更快：并发提高、超时缩短，整段网络约 3 秒扫完"
   ],
   "downloads": {
-    "receiverWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.0/ClassShout-Receiver-Windows.zip",
-    "senderWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.0/ClassShout-Sender-Windows.zip",
-    "senderAndroid": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.0/ClassShout-Sender-Android-v1.5.0.apk"
+    "receiverWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.1/ClassShout-Receiver-Windows.zip",
+    "senderWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.1/ClassShout-Sender-Windows.zip",
+    "senderAndroid": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.1/ClassShout-Sender-Android-v1.5.1.apk"
   },
   "releasePage": "https://github.com/HiMatrixor/ClassShout/releases/latest"
 }
