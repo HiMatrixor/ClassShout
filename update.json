@@ -1,17 +1,18 @@
 {
-  "version": "1.5.2",
-  "date": "2026-11-12",
+  "version": "1.6.0",
+  "date": "2026-11-20",
   "notes": [
-    "跨网络组网程序已直接集成进安装包：不用再下载任何东西，接收端打开就自动连接虚拟网",
-    "首次只需点一次「是」授权建虚拟网卡，之后注册为开机自动连接，以后再也不弹窗、不用管",
-    "控制面板可直接看到虚拟网地址与二维码，手机装好 EasyTier 后扫码即用",
-    "连接助手另两条链路不变：手机热点 / USB 共享、教室电脑一键开热点",
-    "扫码连接、网卡分类、只填 IP 也能连、自动搜索加速等前几版能力全部保留"
+    "新增「云端模式」：教室电脑只主动连阿里云服务器，不开任何端口，老师端用一个固定网址就能喊话，学校、家里、4G 都一样",
+    "云端模式下彻底绕开校园网的 AP 隔离：两个方向都是各自往外连，设备之间根本不需要互通",
+    "控制面板新增「运行模式」：云端 / 局域网一键切换，切回局域网时自动重新开服，互不影响",
+    "公网安全加固：教室密钥强制校验（为空一律拒绝）、学生确认接口加鉴权、登录失败按 IP 限流",
+    "服务端支持 HTTPS：证书放进 server/certs 自动启用，域名备案下来直接切，不用改程序",
+    "附送服务器一键部署脚本（install.sh）：自动装 Node、注册开机自启、生成密钥与管理员密码"
   ],
   "downloads": {
-    "receiverWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.2/ClassShout-Receiver-Windows.zip",
-    "senderWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.2/ClassShout-Sender-Windows.zip",
-    "senderAndroid": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.5.2/ClassShout-Sender-Android-v1.5.2.apk"
+    "receiverWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.6.0/ClassShout-Receiver-Windows.zip",
+    "senderWindows": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.6.0/ClassShout-Sender-Windows.zip",
+    "senderAndroid": "https://github.com/HiMatrixor/ClassShout/releases/download/v1.6.0/ClassShout-Sender-Android-v1.6.0.apk"
   },
   "releasePage": "https://github.com/HiMatrixor/ClassShout/releases/latest"
 }
